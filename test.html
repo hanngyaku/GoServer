@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Apply JavaScript example</title>
+  <script>
+    // 在此编写 JavaScript 代码
+    document.addEventListener("DOMContentLoaded", () => {
+      function createParagraph() {
+        const para = document.createElement("p");
+        para.textContent = "你点击了按钮！";
+        document.body.appendChild(para);
+      }
+
+      const buttons = document.querySelectorAll("button");
+
+      for (const button of buttons) {
+        button.addEventListener("click", createParagraph);
+      }
+    });
+
+  </script>
+</head>
+<body>
+<button>Click me</button>
+</body>
+</html>
