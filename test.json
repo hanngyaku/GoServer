@@ -1,4 +1,4 @@
-{
+{	
 	"MedioInfo": [
 		{
 			"AnimationStudio": "Group1",
@@ -8,6 +8,36 @@
 					"AnimeEpisodes": [
 						{
 							"AnimName": "Anim1-Anim1-A",
+							"path": "http://localhost:8080/static/Zo.mkv",
+							"img": "http://localhost:8080/static/Zo.png"
+						},
+						{
+							"AnimName": "Anim1-Anim1-B",
+							"path": "http://localhost:8080/static/Zo.mkv",
+							"img": "http://localhost:8080/static/Zo.png"
+						},
+						{
+							"AnimName": "Anim1-Anim1-C",
+							"path": "http://localhost:8080/static/Zo.mkv",
+							"img": "http://localhost:8080/static/Zo.png"
+						}
+					]
+				},
+				{
+					"AnimTitle": "Anim2",
+					"AnimeEpisodes": [
+						{
+							"AnimName": "Anim2-Anim1-A",
+							"path": "http://localhost:8080/static/Zo.mkv",
+							"img": "http://localhost:8080/static/Zo.png"
+						},
+						{
+							"AnimName": "Anim2-Anim1-B",
+							"path": "http://localhost:8080/static/Zo.mkv",
+							"img": "http://localhost:8080/static/Zo.png"
+						},
+						{
+							"AnimName": "Anim2-Anim1-C",
 							"path": "http://localhost:8080/static/Zo.mkv",
 							"img": "http://localhost:8080/static/Zo.png"
 						}
