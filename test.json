@@ -1,0 +1,34 @@
+{
+	"MedioInfo": [
+		{
+			"AnimationStudio": "Group1",
+			"AnimeSeries": [
+				{
+					"AnimTitle": "Anim1",
+					"AnimeEpisodes": [
+						{
+							"AnimName": "Anim1-Anim1-A",
+							"path": "http://localhost:8080/static/Zo.mkv",
+							"img": "http://localhost:8080/static/Zo.png"
+						}
+					]
+				}
+			]
+		},
+		{
+			"AnimationStudio": "Group2",
+			"AnimeSeries": [
+				{
+					"AnimTitle": "Anim2",
+					"AnimeEpisodes": [
+						{
+							"AnimName": "Anim1-Anim2-B",
+							"path": "http://localhost:8080/static/Zo.mkv",
+							"img": "http://localhost:8080/static/Zo.png"
+						}
+					]
+				}
+			]
+		}
+	]
+}
